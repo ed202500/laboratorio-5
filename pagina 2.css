@@ -1,0 +1,54 @@
+/* Fondo del sitio */
+body {
+  background: linear-gradient(to right, #ffe6f0, #f5c6ff); /* Colores pastel suaves */
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor del carrusel */
+#carouselExampleControls {
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes del carrusel */
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Estilo de encabezados */
+h1 {
+  font-size: 3rem;
+  color: #e91e63;
+  margin-top: 30px;
+  text-shadow: 1px 1px 3px #fff;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #6a1b9a;
+  text-shadow: 1px 1px 2px #fff;
+}
+
+/* Botones de navegación del carrusel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 10px;
+}
+
+/* Ocultar texto visible solo para lectores de pantalla */
+.visually-hidden {
+  display: none;
+}
